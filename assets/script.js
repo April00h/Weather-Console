@@ -94,3 +94,5 @@ function pullStorage() {
     }
 
 pullStorage();
+
+//error 34 and 57 unresolved 
