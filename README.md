@@ -1,7 +1,7 @@
 # Weather-Console
 
 ## Link
-
+https://april00h.github.io/Weather-Console/ 
 
 ## Table of Contents 
 - [Description](#description)
@@ -34,4 +34,4 @@ Users can click on a city in the search history to revisit its weather informati
 - SO THAT I can plan a trip accordingly
 
 ## Screenshots
-![]()
+![screenshot](assets/images/Screenshot2024-02-14at1.09.43PM.png)
