@@ -1,13 +1,12 @@
-// global variables
+// global var
 var apiKey = "411f4af06666b68c0b3ffe9e5b572d71"
-var currentCity = "";
-var lastCity = "";
+var currentCity = "411f4af06666b68c0b3ffe9e5b572d71";
+var lastCity = "411f4af06666b68c0b3ffe9e5b572d71";
 
-// search button function
+// search button 
 $(document).ready(function () {
-    //search button feature
     $("#search-button").on('click', function () {
-        //get value in input search-value.
+        //get search-value.
         var city = $("#search-value").val();
         $("#search-value").val("");
         getWeather(city);
@@ -54,7 +53,7 @@ var saveSearch = function (newCity) {
 }
 
 function getForecast(city) {
-    var forecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=" + apiKey + "&units=metric"
+    var forecast = "api.openweathermap.org/data/2.5/forecast?" + city + "&APPID=" + apiKey + "&units=metric"
     fetch(forecast)
         .then(function (response) {
             return response.json();
@@ -71,11 +70,11 @@ function getForecast(city) {
 // display query history
 function pullStorage() {
     $('#list-group').empty();
-            // display previous searches on page
+            // display previous searches
         for (var i = 0; i < localStorage.length; i++) {
             var city = localStorage.getItem("cities" + i);
             var cityEl;
-            // Set to lastCity if currentCity not set
+            // Set to lastCity if current not set
             if (currentCity === "") {
                 currentCity = lastCity;
             }
