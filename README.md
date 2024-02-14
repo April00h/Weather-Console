@@ -1,10 +1,13 @@
 # Weather-Console
 
+## Link
+
+
 ## Table of Contents 
 - [Description](#description)
 - [Usage](#usage)
 - [User Story](#userstory) 
-- [License](#license)
+- [Screenshots](#screenshots)
 
 ## Description
 
@@ -30,5 +33,5 @@ Users can click on a city in the search history to revisit its weather informati
 - I WANT to see the weather outlook for multiple cities
 - SO THAT I can plan a trip accordingly
 
-## License
-
+## Screenshots
+![]()
